@@ -4,7 +4,7 @@ import { BsInfoCircle } from "react-icons/bs";
 
 import { Loader } from './'
 
-const commonStyles = "min-h-[70px] sm:px-0 px-2 sm:max-w-[120px] flex flex-wrap justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
+const commonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[170px] flex flex-wrap justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
 const Input = ({placeholder, name, type, value, handleChange}) => (
   <input
@@ -43,7 +43,7 @@ const Welcome = () => {
             <p className="text-white text-base font-semibold">Connect wallet</p>
           </button>
 
-          <div className="grid sm:grid-col-3 grid-col-3 w-full mt-10">
+          <div className="flex flex-wrap justify-center items-center mt-10">
             <span className={`rounded-tl-2xl ${commonStyles}`}>
               Reliability
             </span>
